@@ -8,6 +8,9 @@ var app = express();              // Do Not Edit
 var helmet=require('helmet');
 // ----
 
+
+app.use(helmet())
+
 /** - Challenges - *
 ********************/ 
 
